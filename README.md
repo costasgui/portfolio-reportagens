@@ -1,8 +1,8 @@
-# Guilherme Silva - Portfólio redes
+# Portfólio redes
 
 Esses são os códigos-fonte dos sites dos meus portfólios de redes e reportagens. Oficialmente **meus primeiros códigos** :)
 
-**ATENÇÃO** não sou programador / desenvolvedor (ainda), código aqui totalmente amador e com ajuda de ChatGPT.
+**ATENÇÃO** não sou programador (ainda), código aqui totalmente amador e feito com ajuda de ChatGPT.
 
 ## 🚀 Tecnologias Utilizadas
 
