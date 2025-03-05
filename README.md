@@ -1,4 +1,4 @@
-# Portfólio redes
+# Portfólio reportagens
 
 Esses são os códigos-fonte dos sites dos meus portfólios de redes e reportagens. Oficialmente **meus primeiros códigos** :)
 
