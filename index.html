@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guilherme Silva" />
+    <meta name="author" content="Guilherme Silva" />
+    <title>✍🏽 Guilherme Silva</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inconsolata", monospace;
+        margin: 0;
+        padding: 20px;
+        background-color: #e2e2e2;
+        color: #191919;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        min-height: 300vh;
+        font-size: 21px;
+      }
+      .container {
+        max-width: 800px;
+        line-height: 1.6;
+      }
+      .switch-lang {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        background: none;
+        border: none;
+        font-size: 16px;
+        color: #191919;
+      }
+      .contact button {
+  background-color: #034001;
+  font-family: "Inconsolata", monospace !important;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 21px;
+  cursor: pointer;
+  outline: none;
+}
+
+      .separator {
+        width: 100%;
+        height: 1px;
+        background-color: #191919;
+        margin: 20px 0;
+      }
+      .articles {
+        max-width: 800px;
+        text-align: left;
+      }
+      .articles a {
+        display: inline;
+        color: #191919;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .botao-seta {
+        width: 15px; /* Ajuste o tamanho conforme necessário */
+        height: auto;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+      }
+      .rotacionado {
+        transform: rotate(180deg);
+      }
+      .toggle-button {
+        background: 0000;
+        border: none;
+        color: inherit;
+        font-size: inherit;
+        padding: 0;
+        cursor: pointer;
+        font-weight: normal;
+        font-family: "Inconsolata", monospace;
+      }
+
+      .hidden {
+        display: none;
+      }
+      footer {
+        margin-top: auto;
+        padding: 20px 0;
+      }
+      footer a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: #034001;
+        font-weight: bold;
+      }
+      ul li {
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <b><div class="separator"></div></b>
+    <div class="container">
+      <h1 id="title">Guilherme Silva</h1>
+      <p id="bio">
+        Repórter com foco na cobertura das periferias de São Paulo. Atualmente,
+        é correspondente local da
+        <a
+          href="https://agenciamural.org.br/muralista/guilhermesilva/"
+          style="color: #034001"
+          >Agência Mural de Jornalismo das Periferias</a
+        >. Passou pelo
+        <a
+          href="https://projetocolabora.com.br/author/guilherme-da-costa-silva/"
+          style="color: #034001"
+          >Projeto Colabora</a
+        >
+        e pelo
+        <a href="https://reload.news/" style="color: #034001">Canal Reload</a>
+        (Agência Pública).
+      </p>
+  
+      
+            <br>
+      
+      Saiba mais sobre mim.
+      
+      <button
+        id="toggle-button"
+        class="toggle-button"
+        onclick="toggleDetails()"
+      >
+        <img
+          src="https://cdn.glitch.global/7951b5ab-4a1f-4837-bf07-fffce876624b/download.svg?v=1739464588221"
+          alt="Seta"
+          class="botao-seta"
+          id="seta"
+        />
+      </button>
+
+      <div id="details" class="hidden">
+        <ul>
+          <li>
+            Em 2025, como freelancer, escrevo para a Agência Mural e
+            fui assistente de redes sociais da Agência Pública.
+          </li>
+          <li>
+            Também em 2024, participei da campanha municipal de Guilherme Boulos
+            e Marta Suplicy, atuando como assistente de redes sociais;
+          </li>
+          <li>
+            Em 2024, fui selecionado como trainee do #Colabora - Jornalismo
+            sustentável, para cobrir pautas relacionadas às ODS da ONU. Nesse
+            processo, tratei de temas como violência policial, tecnologia,
+            direitos humanos, meio ambiente e mobilidade;
+          </li>
+          <li>No final de 2023, concluí minha graduação em Jornalismo;</li>
+          <li>
+            Em 2023, integrei a equipe de produção do podcast Mesa de Bar, sendo
+            responsável pela análise de redes sociais (foco em microblogs) e
+            edição de vídeos para redes sociais e YouTube;
+          </li>
+          <li>
+            Em 2022, fui selecionado como repórter correspondente da Agência
+            Mural de Jornalismo das periferias, onde até hoje compartilho
+            histórias e desafios de comunidades periféricas, frequentemente
+            negligenciadas pela grande mídia;
+          </li>
+          <li>
+            Em 2022, fui estagiário de jornalismo no Canal Reload (da Agência
+            Pública), com foco em redes sociais, além de colaborar em reuniões
+            de pautas, elaboração de roteiros para redes sociais e YouTube, e
+            criação de conteúdos para o Instagram;
+          </li>
+          <li>
+            Em outubro de 2021, ainda durante a faculdade, comecei a pautar,
+            escrever e editar no site de jornalismo Casa dos Focas, do
+            jornalista Emilio Coutinho, também meu professor;
+          </li>
+          <li>
+            Iniciei a faculdade de Jornalismo no primeiro semestre de 2020, na
+            Universidade Nove de Julho, quando começou a pandemia de COVID-19;
+          </li>
+        </ul>
+      </div>
+
+      <script>
+        function toggleDetails() {
+          var details = document.getElementById("details");
+          var button = document.getElementById("more-button");
+
+          if (details.classList.contains("hidden")) {
+            details.classList.remove("hidden");
+          } else {
+            details.classList.add("hidden");
+          }
+        }
+      </script>
+      
+      <div class="separator"></div>
+      
+      <div class="articles">
+        <h2 id="reports-title">Reportagens</h2>
+        <ul id="articles-list">
+          <ul>
+            <li>
+              <a href="https://agenciamural.org.br/parque-linear-no-rio-pinheiros/"
+                >Arquiteto luta por parque linear no Rio Pinheiros</a
+                ><span
+                >; reportagem denuncia projeto da Prefeitura de São Paulo para prolongar a marginal oeste do Rio Pinheiros, criticado por ambientalistas e ciclistas por impermeabilizar uma área verde de proteção ambiental (ZEMPAM).</span
+              ><br />
+            </li>
+            <li>
+              <a href="https://agenciamural.org.br/debate-em-sp-periferias/"
+                >Como as periferias foram abordadas no primeiro debate na TV em
+                SP</a
+              ><span
+                >; matéria que analisa como as regiões periféricas estiveram no
+                centro das discussões para a maior parte dos candidatos no
+                primeiro debate das eleições municipais de São Paulo.</span
+              ><br />
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods16/cae-vasconcelos-revolucionario-tratado-como-gente-no-medico/"
+                >Entrevista: Caê Vasconcelos: ‘É revolucionário ser tratado como
+                gente numa sala médica’</a
+              >; entrevista para o #Colabora, em comemoração ao mês de orgulho
+              LGBTQIA+, sobre os desafios enfrentados pela comunidade.
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods5/kim-feiras-uma-influenciadora-na-luta-por-mulheres-desfeminilizadas/"
+                >Entrevista: influenciadora luta contra o apagamento de mulheres
+                lésbicas e desfeminilizadas</a
+              >; entrevista para o #Colabora, em homenagem ao mês de orgulho
+              LGBTQIA+, sobre os desafios enfrentados pelas pessoas dessa sigla.
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods11/a-morte-anda-de-bike-transito-paulista-mata-um-ciclista-por-dia/?amp=1"
+                >Trânsito paulista mata um ciclista por dia</a
+              >; reportagem baseada na análise de dados disponibilizados pelo
+              Sistema de Informações Gerenciais de Acidentes de Trânsito
+              (Infosiga).
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods11/verao-do-apartheid-falta-de-transparencia-impede-mapeamento-de-atuacao-policial/"
+                >ESPECIAL: Verão do Apartheid: falta de transparência impede
+                mapeamento de atuação policial</a
+              >; reportagem para o especial ‘Verão do Apartheid’, que analisou
+              dados da Secretaria de Segurança Pública do Rio de Janeiro para
+              mapear a prisão irregular de jovens negros e periféricos.
+            </li>
+            <li>
+              <a
+                href="https://agenciamural.org.br/especiais/por-que-jovens-das-periferias-entraram-no-mercado-de-conteudo-adulto-na-internet/"
+                >ESPECIAL: Por que jovens das periferias entraram no mercado de
+                conteúdo adulto na internet</a
+              >; especial sobre a realidade de jovens periféricos que relatam o
+              que os levou a entrar no mercado de conteúdo adulto, os problemas
+              com as plataformas e como enfrentam a falta de regulamentação.
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods13/forum-reune-especialistas-para-discutir-financiamento-climatico/"
+                >Fórum reúne especialistas para discutir financiamento climático
+                e aprofundar as discussões sobre o tema, seus entraves e
+                oportunidades</a
+              >; cobertura do Fórum Brasileiro de Finanças Climáticas, ocorrido
+              em fevereiro de 2024.
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods16/assedios-e-abusos-sexuais-transtornam-vida-de-mulheres-na-internet/"
+                >Assédios e abusos sexuais transtornam vida de mulheres na
+                internet</a
+              >; reportagem baseada em estudo da Plan International, que revela
+              como jovens na internet sofrem abusos e assédio em plataformas e
+              redes sociais.
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods16/brumadinho-atingidos-debatem-desafios-dos-processos-contra-a-vale/"
+                >ESPECIAL: Brumadinho - em meio ao corte de indenizações,
+                atingidos debatem desafios dos processos contra a Vale</a
+              >; reportagem do especial 'Brumadinho: cinco anos de impunidade',
+              que cobre o seminário realizado pelas famílias das vítimas do
+              rompimento da barragem da Vale em Brumadinho.
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods16/vai-vai-sob-ataque-apos-desfile-denunciando-violencia-policial/"
+                >Vai-Vai sob ataque após desfile denunciando violência policial
+                e sistema carcerário</a
+              >; cobertura dos acontecimentos após o desfile da Vai-Vai no
+              carnaval de São Paulo, onde o grupo denunciou a violência
+              policial.
+            </li>
+            <li>
+              <a
+                href="https://projetocolabora.com.br/ods4/falta-de-acesso-a-internet-de-qualidade-impacta-educacao-trabalho-e-inclusao-social-nas-periferias/"
+                >Falta de acesso à internet de qualidade impacta educação,
+                trabalho e inclusão social nas periferias</a
+              >; reportagem baseada em dados da PNAD contínua, que revela a
+              realidade dos trabalhadores que dependem da internet para o
+              trabalho, mas enfrentam dificuldades com o limite de dados das
+              operadoras.
+            </li>
+            <li>
+              <a
+                href="https://agenciamural.org.br/wifi-gratis-em-sp-funciona-na-maioria-das-pracas-mas-oscila-e-tem-regioes-sem-acesso/"
+                >WiFi grátis em SP funciona na maioria das praças, mas oscila e
+                tem regiões sem acesso</a
+              >; reportagem colaborativa que lista os locais nas periferias de
+              São Paulo que possuem o serviço de ‘WiFi grátis’ da prefeitura,
+              além de denunciar locais que não têm acesso ou apresentam sinal
+              oscilante.
+            </li>
+            <li>
+              <a
+                href="https://agenciamural.org.br/entenda-como-funcionam-os-conselhos-de-saude-e-como-participar/"
+                >Entenda como funcionam os conselhos de saúde e como
+                participar</a
+              >; reportagem que explica o funcionamento dos conselhos de saúde e
+              como é a vida dos conselheiros.
+            </li>
+            <li>
+              <a
+                href="https://agenciamural.org.br/especiais/santinhometro-propagandas-impressas-eleicoes-2022/"
+                >Santinhômetro: como as propagandas jogadas no quintal de casa
+                impactaram as eleições de 2022</a
+              >; reportagem colaborativa que analisa dados obtidos pela Agência
+              Mural sobre a quantidade de santinhos eleitorais deixados nas
+              casas das periferias de São Paulo.
+            </li>
+            <li>
+              <a
+                href="https://agenciamural.org.br/a-vida-sem-um-pai-para-alem-do-dia-dos-pais/"
+                >A vida sem um pai para além do Dia dos Pais</a
+              >; crônica pessoal publicada no site da Agência Mural.
+            </li>
+            <li>
+              <a
+                href="https://agenciamural.org.br/pista-em-cidade-dutra-tem-manutencao-feita-pelos-proprios-skatistas/"
+                >Pista em Cidade Dutra tem manutenção feita pelos próprios
+                skatistas</a
+              >; reportagem que denuncia a falta de manutenção nas pistas de
+              skate da região sul de São Paulo.
+            </li>
+          </ul>
+        </ul>
+      </div>
+      
+                  <br>
+
+<script>
+      function copyEmail() {
+        const email = "dacostasguilherme@gmail.com";
+        navigator.clipboard.writeText(email);
+        alert("E-mail copiado para a área de transferência!");
+      }
+    </script>
+<div class="contact">
+        <button onclick="copyEmail()">Trabalhe comigo</button>
+      </div>
+
+      <div class="separator"></div>
+      <footer>
+        <a href="https://www.linkedin.com/in/guuicostas/" id="linkedin">LinkedIn</a>
+        <a href="https://bsky.app/profile/guicostas.bsky.social" id="bluesky">Bluesky</a>
+        <a href="https://www.instagram.com/costasgui/" id="Instagram">Instagram</a>
+        <a href="https://guisilva.glitch.me/" id="Portfólio">Portfólio de redes</a>
+      </footer>
+
+      <div class="footer">
+        Built by Guilherme Silva in plain HTML and hosted in
+        <a href="https://glitch.com" target="_blank">Glitch</a>. This site has
+        no analytics nor tracking of any kind.
+
+        <script>
+          document
+            .getElementById("seta")
+            .addEventListener("click", function () {
+              this.classList.toggle("rotacionado");
+            });
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
