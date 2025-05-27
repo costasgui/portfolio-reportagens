@@ -1,8 +1,8 @@
-# Portfólio reportagens
+# Portfólio de reportagens
 
 Esses são os códigos-fonte dos sites dos meus portfólios de redes e reportagens. Oficialmente **meus primeiros códigos** :)
 
-**ATENÇÃO** não sou programador (ainda), código aqui totalmente amador e feito com ajuda de ChatGPT.
+**ATENÇÃO** **NÃO SOU** desenvolvedor, código aqui totalmente amador, feito por hobbie e curisiodidade com ajuda de ChatGPT.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -34,14 +34,6 @@ O layout segue um design minimalista, com:
 - **Botão de alternância**: Exibe/esconde detalhes profissionais;
 - **Links interativos**: Redirecionam para reportagens e redes sociais;
 - **Layout flexível**: Ajustável para dispositivos móveis e desktop.
-
-## 📌 Como Usar
-
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
 
 ## 🔗 Contato
 - **LinkedIn:** [linkedin.com/in/guuicostas](https://www.linkedin.com/in/guuicostas/)
