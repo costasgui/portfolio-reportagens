@@ -2,15 +2,15 @@
 
 Esses são os códigos-fonte dos sites dos meus portfólios de redes e reportagens. Oficialmente **meus primeiros códigos** :)
 
-**ATENÇÃO** **NÃO SOU** desenvolvedor, código aqui totalmente amador, feito por hobbie e curisiodidade com ajuda de ChatGPT.
+**ATENÇÃO** **NÃO SOU** desenvolvedor, código aqui totalmente amador, feito por hobby e curisiodidade (com ajuda de ChatGPT).
 
-## 🚀 Tecnologias Utilizadas
+## Linguagens Utilizadas
 
 - **HTML5**: Estrutura da página;
 - **CSS3**: Estilização utilizando fontes customizadas e layout responsivo;
 - **JavaScript**: Interatividade, como alternância de detalhes do perfil.
 
-## 📄 Estrutura do Código
+## Estrutura do Código
 
 A página está organizada da seguinte forma:
 
@@ -39,4 +39,3 @@ O layout segue um design minimalista, com:
 - **LinkedIn:** [linkedin.com/in/guuicostas](https://www.linkedin.com/in/guuicostas/)
 - **Bluesky:** [bsky.app/profile/guicostas.bsky.social](https://bsky.app/profile/guicostas.bsky.social)
 - **Instagram:** [instagram.com/costasgui](https://www.instagram.com/costasgui/)
-- **Portfólio de Reportagens:** [guilhermesilva.glitch.me](https://guilhermesilva.glitch.me/)
